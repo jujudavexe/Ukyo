@@ -1,0 +1,24 @@
+name: UkyoManagement
+version: 1.0
+main: fr.ukyo.ukyomanagement.Main
+author: Jujudave
+description: Plugin pour gérer les permissions d'un joueur et les command de modération.
+commands:
+  kick:
+    description: Kick un joueur du serveur
+    permission: ukyomanagement.managment.kick
+  ban:
+    description: Bannir un joueur du serveur
+    permission: ukyomanagement.managment.ban
+  unban:
+    description: Débannir un joueur du serveur
+    permission: ukyomanagement.managment.unban
+  mute:
+    description: Réduire au silence un joueur
+    permission: ukyomanagement.managment.mute
+  unmute:
+    description: Rétablir la parole d'un joueur
+    permission: ukyomanagement.managment.unmute
+  warn:
+    description: Rétablir la parole d'un joueur
+    permission: ukyomanagement.managment.warn

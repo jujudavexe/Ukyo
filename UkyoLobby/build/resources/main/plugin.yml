@@ -1,0 +1,8 @@
+name: UkyoLobby
+version: 1.0
+main: fr.ukyo.ukyolobby.Main
+commands:
+  staff:
+    description: Ouvrir l'interface de connexion aux serveurs staff
+    permission: ukyolobby.command.use
+
